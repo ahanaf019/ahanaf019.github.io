@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Md. Ahanaf Arif Khan",
+    "label": "AI Researcher",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "ahanaf019@gmail.com",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://ahanaf019.github.io/",
+    "summary": "Hello! I'm an enthusiastic student with a strong interest in `deep learning`, `machine learning`, `data science` and `data analysis`, I am constantly seeking to broaden my knowledge and skills in these areas. I'm fascinated by these fields' transformative potential in solving complex problems and making meaningful contributions to society. I have a solid foundation in computer science thanks to my academic journey, and I am actively exploring cutting-edge technologies and techniques. Curiosity, a thirst for knowledge, and a determination to make a positive difference through innovative applications of AI and data-driven solutions motivate me.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
