@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Md. Ahanaf Arif Khan</title>
+  
+  <link rel="icon" type="image/png"
+  href="/static/resources/favicon.png">
+  
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="relative min-h-screen font-sans scroll-smooth text-gray-800 overflow-x-hidden">
+  
+  <!-- 🌈 Global Gradient Background -->
+  <div class="fixed inset-0 -z-50 
+              bg-gradient-to-br from-blue-50 via-white to-purple-100">
+</div>
+
+<!-- 🫧 Floating Blur Accents -->
+<div class="fixed top-[-150px] left-[-120px] w-[420px] h-[420px]
+              bg-blue-300 opacity-20 rounded-full blur-3xl -z-40">
+</div>
+
+<div class="fixed bottom-[-150px] right-[-120px] w-[420px] h-[420px]
+              bg-purple-300 opacity-20 rounded-full blur-3xl -z-40">
+</div>
+
+
+<!-- NAVBAR -->
+<nav class="backdrop-blur-md bg-white/60 shadow-sm sticky top-0 z-50 border-b border-white/40">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    
+    <!-- Logo + Title -->
+    <div class="flex items-center space-x-4">
+      <img src="/static/resources/logo.png"
+      class="h-12 w-12">
+      
+      <div class="text-xl font-semibold tracking-wide text-gray-900">
+        Portfolio
+      </div>
+    </div>
+    
+    <!-- Links -->
+    <div class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+      
+      <a href="/"
+      class="transition
+     
+       hover:text-blue-600
+     ">
+      Home
+    </a>
+    
+    <a href="/projects/"
+    class="transition
+     
+       text-blue-600 font-semibold
+     ">
+    Projects
+  </a>
+  
+  <a href="/education/"
+  class="transition
+     
+       hover:text-blue-600
+     ">
+  Education
+</a>
+
+<a href="/publications/"
+class="transition
+     
+       hover:text-blue-600
+     ">
+Publications
+</a>
+
+<a href="/awards/"
+class="transition
+     
+       hover:text-blue-600
+     ">
+Awards
+</a>
+
+
+<a href="/misc/"
+class="transition
+     
+       hover:text-blue-600
+     ">
+More
+</a>
+
+<a href="/static/resources/ahanaf019_cv_public.pdf"
+download
+class="ml-4 px-4 py-2 rounded-lg 
+            bg-gradient-to-r from-blue-600 to-purple-600 
+            text-white shadow-md hover:shadow-lg 
+            hover:scale-105 transition duration-300">
+Download CV
+</a>
+
+</div>
+
+</div>
+</nav>
+
+
+<!-- MAIN CONTENT -->
+<main class="max-w-5xl mx-auto px-6 py-16">
+  
+
+<section class="py-12">
+
+  <!-- Header -->
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl font-bold tracking-tight mb-3">Projects</h1>
+    <div class="w-16 h-1 mx-auto bg-blue-400 rounded mb-3"></div>
+    <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+      Some selected projects showcasing research, implementation, and practical applications.
+    </p>
+  </div>
+
+  <!-- Projects Grid -->
+  <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">VisionDesk: Employee activity monitoring using YOLOv8</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Ultralytics YOLOv8
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            OpenCV
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            NumPy
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            FastAPI
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            RTSP
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Mar 2025 – May 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Developed real-time multi-object detection app using YOLOv8 and FastAPI.</li>
+        
+          <li>Customized dashboard to view employee stats over time.</li>
+        
+          <li>Real-time feed for monitoring employee status.</li>
+        
+          <li>Tuned activity detection with manually annotated workplace footage.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/mdhasnainali/VisionDesk" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Vision Transformer (ViT) Custom Implementation</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Jun 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Implemented end-to-end Vision Transformer from scratch, including patch embedding and multi-head self-attention.</li>
+        
+          <li>Trained on custom datasets.</li>
+        
+          <li>Visualized attention maps to understand model interpretability.</li>
+        
+          <li>Packaged training, validation, and inference scripts for public use.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/Vision-Transformer-From-Scratch" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Swin Transformer Variant from Scratch</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Swin Transformer components
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            NumPy
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Jun 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Built window-based multi-head self-attention with shifting mechanism per Swin Transformer design.</li>
+        
+          <li>Demonstrated performance gains in classification tasks compared to standard ViT.</li>
+        
+          <li>Automated model checkpointing and fine-tuning utilities.</li>
+        
+          <li>Conducted experiments on patch/window size sensitivity.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/Vision-Transformer-From-Scratch" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">CutMix &amp; MixUp Implementation in PyTorch: Regularization for Model Training</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            torchvision
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Jun 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Implemented CutMix and MixUp data augmentation strategies to regularize CNN training.</li>
+        
+          <li>Integrated both techniques into PyTorch training pipelines with custom datasets.</li>
+        
+          <li>Compared model generalization and convergence behavior under different augmentation regimes.</li>
+        
+          <li>Visualized mixed inputs and label distributions for interpretability and debugging.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/CutMix-MixUp-Implementation-Pytorch" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Knowledge Distillation: ResNet50 → MobileNetV3 on STL‑10</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            ResNet50 teacher
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            MobileNetV3 student
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Jun 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Trained teacher-student pipeline transferring knowledge from a high-capacity ResNet50 to efficient MobileNetV3.</li>
+        
+          <li>Tuned temperature and loss weighting to balance mimicry and ground truth.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/Knowledge-Distillation-Pytorch" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">SimCLR Contrastive Learning Framework</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            torchvision
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            contrastive loss
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Apr 2025</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Implemented SimCLR pipeline with dual-view augmentations and projection heads.</li>
+        
+          <li>Pre-trained encoder on unlabeled image dataset achieving robust representation scores.</li>
+        
+          <li>Evaluated learned embeddings on downstream tasks.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/SimCLR-Implementation-Pytorch" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Semantic Segmentation Pipeline</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            PyTorch
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            U-Net variants
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Dec 2024</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Implemented U-Net semantic segmentation architecture for varied datasets.</li>
+        
+          <li>Implemented Vanilla U-Net and U-Net with pre-trained Resnet18 encoder.</li>
+        
+          <li>Visualized predictions versus ground truths for qualitative validation.</li>
+        
+          <li>Modularized code for dataset swapping and transfer learning.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/PyTorch-Semantic-Segmentaion" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Conditional GAN in Keras: Class‑Conditioned Image Generation</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            TensorFlow/Keras
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            NumPy
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Matplotlib
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Nov 2024</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Built a Conditional GAN using Keras to generate MNIST digits conditioned on class labels.</li>
+        
+          <li>Designed generator and discriminator networks with label embedding and concatenation.</li>
+        
+          <li>Trained the model to produce class-consistent samples with minimal mode collapse.</li>
+        
+          <li>Visualized generated samples across epochs to monitor training quality.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/CGAN-Keras" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Flower-Classification-Using-NN: Deep neural networks for fine‑grained image classification</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Keras
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            TensorFlow
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            NumPy
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Pandas
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Jupyter Notebook
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Aug 2023</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Built and trained multiple CNN architectures to classify flower species from image datasets.</li>
+        
+          <li>Employed techniques like transfer learning and data augmentation to boost classification performance.</li>
+        
+          <li>Evaluated models using metrics like precision, recall, and top‑k accuracy.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/Flower-Classification-Using-NN" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+    <div class="flex flex-col justify-between bg-white rounded-xl shadow-sm border-l-4 border-blue-600 
+                hover:shadow-lg hover:scale-[1.02] transition transform duration-300 p-6">
+
+      <!-- Accent Dot + ID (Optional subtle visual) -->
+      <div class="flex items-center mb-2 space-x-2">
+        <h2 class="text-xl font-semibold hover:text-blue-700 transition">Flood-Segmentation: Flood image segmentation model(s)</h2>
+      </div>
+
+      <!-- Tools -->
+      <div class="text-sm text-gray-500 mb-2 flex flex-wrap gap-2">
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Python
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            TensorFlow
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Keras
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            OpenCV
+          </span>
+        
+          <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-50 transition">
+            Jupyter Notebook
+          </span>
+        
+      </div>
+
+      <!-- Duration -->
+      <p class="text-gray-400 mb-3">Jun 2023</p>
+
+      <!-- Description -->
+      <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+        
+          <li>Designed and implemented a U-Net-based segmentation pipeline to delineate flood-affected regions from satellite imagery.</li>
+        
+          <li>Optimized training and data augmentation strategies to improve segmentation accuracy.</li>
+        
+      </ul>
+
+      <!-- GitHub Button -->
+      
+      <a href="https://github.com/ahanaf019/Flood-Segmentation" target="_blank"
+         class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-lg 
+                hover:bg-blue-700 hover:shadow-md transition duration-300">
+        <i class="fa-brands fa-github mr-2"></i> View Code
+      </a>
+      
+
+    </div>
+    
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="mt-20 py-8 text-center text-gray-600 backdrop-blur-md bg-white/40 border-t border-white/40 shadow-inner">
+
+  <!-- Name & Copyright -->
+  <p class="mb-4 font-semibold text-gray-800">
+    © 2025 Md. Ahanaf Arif Khan
+  </p>
+
+  <!-- Contact Links -->
+  <div class="flex flex-wrap justify-center gap-4 mb-4 text-sm">
+    <a href="mailto:ahanaf019@gmail.com" class="hover:text-blue-600 transition flex items-center gap-1">
+      <i class="fas fa-envelope"></i> ahanaf019@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/ahanaf019/" target="_blank" class="hover:text-blue-600 transition flex items-center gap-1">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/ahanaf019" target="_blank" class="hover:text-gray-800 transition flex items-center gap-1">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.kaggle.com/mdahanafarifkhan" target="_blank" class="hover:text-yellow-600 transition flex items-center gap-1">
+      <i class="fab fa-kaggle"></i> Kaggle
+    </a>
+    <a href="https://www.researchgate.net/profile/Md-Ahanaf-Arif-Khan" target="_blank" class="hover:text-green-700 transition flex items-center gap-1">
+      <i class="fab fa-researchgate"></i> ResearchGate
+    </a>
+  </div>
+
+  <!-- Visitor Badge -->
+  <div class="mb-4">
+    <img 
+      src="https://visitor-badge.laobi.icu/badge?page_id=ahanaf019.github.io" 
+      alt="Visitor Badge" 
+      class="mx-auto"
+    />
+  </div>
+
+</footer>
+
+</body>
+</html>
