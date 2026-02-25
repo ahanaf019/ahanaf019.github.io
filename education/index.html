@@ -13,6 +13,7 @@
   
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body class="relative min-h-screen font-sans scroll-smooth text-gray-800 overflow-x-hidden">
@@ -39,77 +40,70 @@
     <!-- Logo + Title -->
     <div class="flex items-center space-x-4">
       <img src="/static/resources/logo.png"
-      class="h-12 w-12">
-      
+           class="h-12 w-12">
       <div class="text-xl font-semibold tracking-wide text-gray-900">
         Portfolio
       </div>
     </div>
-    
-    <!-- Links -->
+
+    <!-- Desktop Links -->
     <div class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
       
-      <a href="/"
-      class="transition
-     
-       hover:text-blue-600
-     ">
-      Home
+      <a href="/" class="transition  hover:text-blue-600 ">
+        Home
+      </a>
+
+      <a href="/projects/" class="transition  hover:text-blue-600 ">
+        Projects
+      </a>
+
+      <a href="/education/" class="transition  text-blue-600 font-semibold ">
+        Education
+      </a>
+
+      <a href="/publications/" class="transition  hover:text-blue-600 ">
+        Publications
+      </a>
+
+      <a href="/awards/" class="transition  hover:text-blue-600 ">
+        Awards
+      </a>
+
+      <a href="/misc/" class="transition  hover:text-blue-600 ">
+        More
+      </a>
+
+      <a href="/static/resources/ahanaf019_cv_public.pdf"
+         download
+         class="ml-4 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-md hover:shadow-lg hover:scale-105 transition duration-300">
+        Download CV
+      </a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="md:hidden text-2xl text-gray-700 focus:outline-none">
+      <i class="fas fa-bars"></i>
+    </button>
+
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu"
+       class="hidden md:hidden px-6 pb-6 space-y-4 text-gray-700 font-medium bg-white/80 backdrop-blur-md">
+
+    <a href="/" class="block hover:text-blue-600">Home</a>
+    <a href="/projects/" class="block hover:text-blue-600">Projects</a>
+    <a href="/education/" class="block hover:text-blue-600">Education</a>
+    <a href="/publications/" class="block hover:text-blue-600">Publications</a>
+    <a href="/awards/" class="block hover:text-blue-600">Awards</a>
+    <a href="/misc/" class="block hover:text-blue-600">More</a>
+
+    <a href="/static/resources/ahanaf019_cv_public.pdf"
+       download
+       class="block mt-4 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center">
+       Download CV
     </a>
-    
-    <a href="/projects/"
-    class="transition
-     
-       hover:text-blue-600
-     ">
-    Projects
-  </a>
-  
-  <a href="/education/"
-  class="transition
-     
-       text-blue-600 font-semibold
-     ">
-  Education
-</a>
-
-<a href="/publications/"
-class="transition
-     
-       hover:text-blue-600
-     ">
-Publications
-</a>
-
-<a href="/awards/"
-class="transition
-     
-       hover:text-blue-600
-     ">
-Awards
-</a>
-
-
-<a href="/misc/"
-class="transition
-     
-       hover:text-blue-600
-     ">
-More
-</a>
-
-<a href="/static/resources/ahanaf019_cv_public.pdf"
-download
-class="ml-4 px-4 py-2 rounded-lg 
-            bg-gradient-to-r from-blue-600 to-purple-600 
-            text-white shadow-md hover:shadow-lg 
-            hover:scale-105 transition duration-300">
-Download CV
-</a>
-
-</div>
-
-</div>
+  </div>
 </nav>
 
 
@@ -240,6 +234,25 @@ Download CV
   </div>
 
 </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const icon = menuBtn.querySelector("i");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+
+      // Toggle icon
+      if (icon.classList.contains("fa-bars")) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+      } else {
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+      }
+    });
+  </script>
 
 </body>
 </html>
